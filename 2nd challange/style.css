@@ -1,0 +1,56 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-image: url("https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+#title {
+  font-size: 45px;
+}
+#description {
+  font-size: 25px;
+}
+.form {
+  background-color: rgba(161, 159, 159, 0.8);
+  width: fit-content;
+  margin: auto;
+  padding: 1em 5em;
+  border-radius: 10px;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+select,
+button {
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 2em;
+  font-size: 1em;
+  font-family: "Playfair Display", serif;
+}
+input[type="radio"],
+[type="checkbox"] {
+  width: 1.5em;
+  height: 1.5em;
+}
+label {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+textarea {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+button {
+  background-color: greenyellow;
+}

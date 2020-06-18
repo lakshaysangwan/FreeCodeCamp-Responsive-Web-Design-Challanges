@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My technical Documentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav id="navbar">
+  <header id="main-header">
+    C Documentation
+  </header>
+  <ul>
+    <li id="nav-li"><a href="#About" class="nav-link">About</a></li>
+    <li id="nav-li"><a href="#Hello_World" class="nav-link">Hello world</a></li>
+    <li id="nav-li"><a href="#Applications_of_C_programming" class="nav-link">Applications of C Programming</a></li>
+    <li id="nav-li"><a href="#Installation" class="nav-link">Installation</a></li>
+    <li id="nav-li"><a href="#Whitespace_in_c" class="nav-link">Whitespace in C</a></li>
+    <li id="nav-li"><a href="#lorem" class="nav-link">Lorem</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="About">
+    <header id="main-heading">About</header>
+    <div id="mainSectionData">
+      C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain.
+    </div>
+  </section>
+
+  <section class="main-section" id="Hello_World">
+    <header id="main-heading">Hello World</header>
+    <div id="mainSectionData">
+      <code>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+   /* my first program in C */
+   printf("Hello, World! \n");
+
+   return 0;
+}</pre>
+      </code>
+    </div>
+  </section>
+
+  <section class="main-section" id="Applications_of_C_programming">
+    <header id="main-heading">Applications of C programming</header>
+    <div id="mainSectionData">
+      C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
+      <ul>
+        <li>Operating Systems</li>
+        <li>Language Compilers</li>
+        <li>Assemblers</li>
+        <li>Text Editors</li>
+        <li>Print Spoolers</li>
+        <li>Network Drivers</li>
+        <li>Modern Programs</li>
+        <li>Databases</li>
+        <li>Languages Interpreters</li>
+        <li>Utilities</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="main-section" id="Installation">
+    <header id="main-heading">Installation</header>
+    <div id="mainSectionData">
+      <p>
+        <header id="useless-heading">On linux</header>
+        If you are using Linux or UNIX, then check whether GCC is installed on your system by entering the following command from the command line −
+        <code>
+          <pre>
+$ gcc -v</pre>
+        </code>
+        If you have GNU compiler installed on your machine, then it should print a message as follows −
+        <code>
+          <pre>
+Using built-in specs.
+Target: i386-redhat-linux
+Configured with: ../configure --prefix=/usr .......
+Thread model: posix
+gcc version 4.1.2 20080704 (Red Hat 4.1.2-46)</pre>
+        </code>
+        f GCC is not installed, then you will have to install it yourself using the detailed instructions available at https://gcc.gnu.org/install/
+
+        This tutorial has been written based on Linux and all the given examples have been compiled on the Cent OS flavor of the Linux system.
+      </p>
+      <p>
+        <header id="useless-heading">On Windows</header>
+        To install GCC on Windows, you need to install MinGW. To install MinGW, go to the MinGW homepage, www.mingw.org, and follow the link to the MinGW download page. Download the latest version of the MinGW installation program, which should be named MinGW-<version>.exe.
+
+          While installing Min GW, at a minimum, you must install gcc-core, gcc-g++, binutils, and the MinGW runtime, but you may wish to install more.
+
+          Add the bin subdirectory of your MinGW installation to your PATH environment variable, so that you can specify these tools on the command line by their simple names.
+
+          After the installation is complete, you will be able to run gcc, g++, ar, ranlib, dlltool, and several other GNU tools from the Windows command line.
+      </p>
+      <p>
+        <header id="useless-heading">On MacOS</header>
+        If you use Mac OS X, the easiest way to obtain GCC is to download the Xcode development environment from Apple's web site and follow the simple installation instructions. Once you have Xcode setup, you will be able to use GNU compiler for C/C++. Xcode is currently available at developer.apple.com/technologies/tools/.
+      </p>
+    </div>
+  </section>
+
+  <section class="main-section" id="Whitespace_in_c">
+    <header id="main-heading">Whitespace in C</header>
+    <div id="mainSectionData">
+      A line containing only whitespace, possibly with a comment, is known as a blank line, and a C compiler totally ignores it.
+      Whitespace is the term used in C to describe blanks, tabs, newline characters and comments. Whitespace separates one part of a statement from another and enables the compiler to identify where one element in a statement, such as int, ends and the next element begins. Therefore, in the following statement −
+      <code>
+        <Pre>int age;</Pre></code>
+      there must be at least one whitespace character (usually a space) between int and age for the compiler to be able to distinguish them. On the other hand, in the following statement −
+      <code>
+        <pre>fruit = apples + oranges;   // get the total fruit</pre>
+      </code>
+      no whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish to increase readability.
+    </div>
+  </section>
+
+  <section class="main-section" id="lorem">
+    <header id="main-heading">Lorem</header>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sequi ducimus eius dolorem aut quos sit accusantium, recusandae vitae obcaecati explicabo, tempora praesentium. Eum maiores nisi sunt eos vero assumenda.Totam aspernatur excepturi fugit nostrum ad necessitatibus cumque. Ipsa, optio corporis. Modi eius ratione provident! Quibusdam eveniet itaque dicta inventore reprehenderit magni incidunt rem tempora saepe! Quae temporibus facilis tempore?</p>
+  </section>
+
+</main>
+</body>
+</html>

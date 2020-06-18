@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="title">
+    <h1 id="title">Hello Survey</h1>
+    <p id="description">This is a sample survey form for FreeCodeCamp for Responsive Web development </p>
+  </div>
+
+  <div class="form">
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name here" required><br><br>
+
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your Email here" required><br><br>
+
+      <label for="number" id="number-label">Age</label><br>
+      <input type="number" id="number" name="number" placeholder="Enter your age here" required min="18" max="80"><br><br>
+
+      <label for="education">Education</label><br>
+      <select name="education" id="dropdown">
+        <option value="Post-graduate">Post-graduate</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Under-Graduate">Under-Graduate</option>
+        <option value="High-School">High-School</option>
+      </select><br><br>
+
+      <label for="gender">Select you gender</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+
+      <label>Enter your hobbies</label><br>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> I have a boat</label><br><br>
+
+      <label for="suggestion">Suggestions</label>
+      <textarea name="suggestion" id="textarea" cols="30" rows="10" placeholder="Your suggestion goes here"></textarea><br><br>
+
+      <label for="button"><button id="submit" type="submit">Submit</button></label>
+    </form>
+  </div>
+</body>
+
+</html>

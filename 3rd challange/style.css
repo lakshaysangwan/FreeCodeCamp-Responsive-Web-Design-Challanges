@@ -1,0 +1,163 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.heading {
+  margin-top: 0;
+}
+#mclaren {
+  color: rgb(11, 107, 216);
+}
+#header {
+  width: 100%;
+  padding: 0.3em 2em;
+  background-color: orange;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  align-content: center;
+}
+a {
+  font-size: 25px;
+  padding: 0.5em 1em;
+  margin: auto;
+  text-decoration: none;
+  color: blue;
+}
+#header-img {
+  width: 100px;
+  position: absolute;
+  right: 3em;
+  top: -0.3em;
+}
+#bruce {
+  height: 20em;
+  margin: 0 2em;
+  border: 5px solid rgb(216, 143, 8);
+  padding: 1em;
+}
+#caption {
+  margin-top: none;
+  color: orange;
+  font-size: 30px;
+  border-bottom: 5px solid rgb(0, 89, 255);
+  width: 30%;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  #bruce {
+    width: 50%;
+  }
+  figcaption {
+    color: orange;
+    font-size: 20px;
+  }
+  figure {
+    margin: 0;
+  }
+}
+.torso {
+  color: black;
+  padding: 3em;
+  /* margin-top: 90em; */
+}
+.heading {
+  color: rgb(255, 136, 0);
+  font-size: 60px;
+}
+.intro {
+  text-align: justify;
+  margin: 2em;
+  border: 2px solid orange;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.video {
+  margin: auto;
+}
+iframe {
+  margin: auto;
+  border: 2px solid orange;
+  padding: 1em;
+}
+@media (max-width: 800px) {
+  iframe {
+    max-width: 400px;
+  }
+  #bruce {
+    height: 40%;
+  }
+}
+form {
+  width: 70%;
+  margin: auto;
+}
+input {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  height: 25px;
+  margin: 0.5em auto;
+  max-width: 450px;
+}
+#submit {
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid orange;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(0, 55, 236);
+  border: none;
+  color: orange;
+  padding: auto 5px;
+}
+#email {
+  font-size: 20px;
+  height: 30px;
+  width: 100%;
+}
+#driver {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-row-gap: 3em;
+}
+#driver-image {
+  border: 7px solid orange;
+  /* width: 150px; */
+  padding: 1em;
+  height: 200px;
+}
+#driver-caption {
+  font-size: 1.5em;
+  background-color: orange;
+  color: blue;
+  border: 2px solid blue;
+  margin: 0 2em;
+}
+.aryton {
+  font-size: 1.5em;
+  background-color: orange;
+  color: blue;
+  border: 2px solid blue;
+  margin: 0 20em;
+}
+h3 {
+  font-size: 35px;
+  color: rgb(0, 94, 218);
+  border-bottom: 2px solid orange;
+  margin: 0 13em;
+}
+#aryton {
+  border: 5px solid orange;
+  height: 27em;
+}
